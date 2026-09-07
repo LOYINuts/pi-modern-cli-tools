@@ -1,12 +1,12 @@
 import type { ExtensionAPI } from "@earendil-works/pi-coding-agent";
 
 const CLI_GUIDANCE = `
-Preferred modern CLI tools:
-- Use eza for directory listings.
-- Use bat for readable file previews.
-- Use sd for text substitutions.
-- Use jaq for JSON queries and transformations.
-- Use zoxide for fuzzy directory navigation.
+When shell commands are needed, prefer these modern replacements:
+- Use eza instead of ls for directory listings.
+- Use bat instead of cat for readable text-file previews.
+- Use sd instead of sed for text substitutions.
+- Use jaq instead of jq for JSON queries and transformations.
+- Use zoxide for fuzzy directory navigation instead of searching paths manually.
 `;
 
 export default function (pi: ExtensionAPI) {
